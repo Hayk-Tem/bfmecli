@@ -1,0 +1,32 @@
+{
+  "name": "bfmecli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "bin": {
+    "bfme": "./index.js"
+  },
+  "files": [
+    "./index.js",
+    "package.json",
+    "lib/"
+  ],
+  "keywords": [
+    "bfmecli",
+    "bfme",
+    "bfme2",
+    "rotwk"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  },
+  "dependencies": {
+    "bfme-csf-str": "^1.0.0",
+    "commander": "^12.1.0"
+  }
+}
