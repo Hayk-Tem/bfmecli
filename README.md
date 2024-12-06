@@ -34,14 +34,12 @@ bfme csf <csfFilePath> --str [strFilePath] --json [jsonFilePath] --sort "up"
 
 
 * Convert from str to csf
-* [csfFilePath] is optional, if not specified csf file name is the same as str file name.
 
 ```bash
 bfme str <strFilePath> [csfFilePath]
 ```
 
 * Convert from json to csf
-* [jsonFilePath] is optional, if not specified csf file name is the same as json file name.
 
 ```bash
 bfme str <strFilePath> [jsonFilePath]
